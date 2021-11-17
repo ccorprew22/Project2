@@ -49,21 +49,23 @@
         For example, turning the tuple values into floats can be done in the abstract class so that
         it doesn't have to be written in each following class.</li>
         <img src="images/abstraction.png" class="code-sample">
+        Look at the example <a href="https://github.com/ccorprew22/calc2/blob/static/calculator/calculations/calculation.py">here</a>.
         <li>Inheritance: Inheritance is when a class inherits the methods of a parent class. This is done so that code isn't
         written repeatedly. For example, the calculation class will have a method that turns values into a float. So instead
         of re wrting this method several times in the addition and substraction classes, you can inherit the calculation method so that
         you can use that existing method and these new classes can now focus on writing unique methods.</li>
         <img src="images/inheritance.png" class="code-sample">
+        Look at the example <a href="https://github.com/ccorprew22/calc2/blob/static/calculator/calculations/addition.py">here</a>.
         <li>Encapsulation: Encapsulation is the the priciple of restricting access to certain data. For example, in the Calculator
-        program, the calculator class has a history list, which shouldn't be accessible to anyone outside of the class unless there
+        program, the history class has a history list, which shouldn't be accessible to anyone outside of the class unless there
         is a method made with the ability to share desired pieces of that list.</li>
-
-
+        <img src="images/history_class.png" class="code-sample">
+        Look at the example <a href="https://github.com/ccorprew22/calc2/blob/static/calculator/history/history.py">here</a>.
         <li>Polymorphism: Polymorphsim is the ability to perform a function with multiple implementations. In the Calculator
         program, we have our calculation class that takes a list of values. We then have several child classes that inherits
         the constructor class and uses this list to return varying math results.
+        Look at the calculation class and its child classes in full effect <a href="https://github.com/ccorprew22/calc2/tree/static/calculator/calculations">here</a>.
         </li>
-        <img src="images/history_class.png" class="code-sample">
 
       </ol>
     </div>
